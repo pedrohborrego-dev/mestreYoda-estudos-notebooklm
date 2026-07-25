@@ -96,48 +96,167 @@ As fontes foram selecionadas com o objetivo de explorar temas como:
 6. [Sabedoria Jedi: 4 lições de Yoga com o Mestre Yoda](https://voltaaosupremo.com/artigos/artigos/sabedoria-jedi-4-licoes-de-yoga-com-o-mestre-yoda/)
 
 ---
+# 📖 Glossário dos Principais Conceitos
 
-## 🧠 Engenharia de Prompts
+| Conceito | Definição |
+|---|---|
+| Segundo Cérebro Digital | Sistema digital utilizado para organizar, armazenar e recuperar conhecimentos e informações importantes. |
+| Inteligência Artificial (IA) | Tecnologia capaz de analisar informações, gerar respostas e auxiliar usuários em diferentes atividades. |
+| NotebookLM | Ferramenta de inteligência artificial utilizada para analisar documentos e responder perguntas com base nas fontes adicionadas. |
+| Prompt | Comando ou instrução enviada para uma inteligência artificial gerar uma resposta específica. |
+| Engenharia de Prompts | Processo de criação, análise e melhoria de comandos para obter melhores resultados de uma IA. |
+| Curadoria de Conteúdo | Processo de selecionar, organizar e avaliar informações relevantes para uma finalidade específica. |
+| Base de Conhecimento | Conjunto organizado de informações utilizadas para consulta e aprendizado. |
+| Aprendizado Contínuo | Processo constante de aquisição e evolução de conhecimentos e habilidades. |
+| Inteligência Emocional | Capacidade de compreender e administrar emoções para melhorar relações e decisões. |
 
-Durante o desenvolvimento do projeto foram realizados testes com diferentes comandos para analisar como a formulação dos prompts influencia a qualidade das respostas geradas pela inteligência artificial.
+---
+# 🤖 Prompts Reutilizáveis
+
+## Prompt para Resumo de Conteúdo
+
+```text
+Analise o conteúdo abaixo e crie um resumo estruturado.
+
+Inclua:
+- Conceitos principais;
+- Explicações simples;
+- Exemplos práticos;
+- Pontos importantes para revisão.
+
+Organize as informações de forma clara e objetiva para facilitar o aprendizado.
+
+Conteúdo:
+[insira o material]
+```
 
 ---
 
-## Prompt 1
+## Prompt para Criação de Mapa Mental
 
-**Pergunta:**
+```text
+Atue como um especialista em organização visual de conhecimento.
 
-> Explique como posso utilizar os ensinamentos do Mestre Yoda para melhorar minha disciplina e produtividade.
+Crie um mapa mental sobre o tema informado, organizando as informações de forma hierárquica.
 
-**Resultado obtido:**
+Estruture o mapa com:
 
-O NotebookLM apresentou recomendações relacionadas à disciplina, autocontrole, paciência e aprendizado contínuo, utilizando como base as informações disponíveis nas fontes adicionadas.
+- Tema principal no centro;
+- Tópicos principais relacionados ao assunto;
+- Subtópicos com detalhes importantes;
+- Exemplos práticos quando necessário;
+- Relações entre os conceitos apresentados.
+
+Utilize uma estrutura clara e objetiva para facilitar a compreensão, memorização e revisão do conteúdo.
+
+Tema:
+[insira o assunto]
+```
+
+---
+
+## Prompt para Criar Material de Estudo
+
+```text
+Transforme o conteúdo abaixo em um guia de estudos completo.
+
+Crie:
+
+- Resumo estruturado;
+- Glossário dos principais conceitos;
+- Exemplos práticos;
+- Perguntas e respostas para revisão;
+- Principais aprendizados.
+
+Organize o material de forma didática para facilitar a compreensão e preparação para avaliações.
+
+Tema:
+[insira o assunto]
+```
 
 ---
 
-## Prompt 2
+## Prompt para Revisão de Aprendizado
 
-**Pergunta:**
+```text
+Atue como um professor especialista no tema informado.
 
-> Quais princípios do Mestre Yoda podem ser aplicados na vida profissional?
+Crie perguntas de revisão com respostas explicadas para testar meu conhecimento.
 
-**Resultado obtido:**
+Inclua:
 
-A resposta destacou conceitos relacionados à liderança, inteligência emocional, tomada de decisão e desenvolvimento de habilidades profissionais.
+- Questões básicas;
+- Questões intermediárias;
+- Questões avançadas;
+- Explicações das respostas;
+- Pontos importantes para memorizar.
+
+Tema:
+[insira o assunto]
+```
+
+---
+
+## Prompt para Organização de Conhecimento
+
+```text
+Analise as informações abaixo e organize-as como uma base de conhecimento.
+
+Estruture o conteúdo em:
+
+- Categorias principais;
+- Conceitos importantes;
+- Definições;
+- Aplicações práticas;
+- Exemplos;
+- Pontos para aprofundamento.
+
+O objetivo é transformar informações dispersas em um conhecimento organizado e fácil de consultar.
+
+Informações:
+[insira os dados]
+```
 
 ---
 
-## Prompt 3
+## Prompt para Plano de Evolução Pessoal
 
-**Pergunta:**
+```text
+Crie um plano de evolução pessoal baseado no tema informado.
 
-> Crie um plano de evolução pessoal inspirado na filosofia do Mestre Yoda.
+Organize o plano em:
 
-**Resultado obtido:**
+- Objetivos de curto prazo;
+- Objetivos de médio prazo;
+- Objetivos de longo prazo;
+- Hábitos necessários;
+- Ações práticas;
+- Formas de acompanhar o progresso.
 
-Foi criado um roteiro de evolução dividido em objetivos de curto, médio e longo prazo, utilizando princípios de disciplina, aprendizado e melhoria contínua.
+Utilize princípios de disciplina, aprendizado contínuo e melhoria pessoal.
+
+Tema:
+[insira o objetivo]
+```
 
 ---
+
+## Prompt para Análise Crítica
+
+```text
+Analise o conteúdo abaixo de forma crítica.
+
+Apresente:
+
+- Principais ideias;
+- Pontos positivos;
+- Possíveis limitações;
+- Oportunidades de melhoria;
+- Conclusões baseadas nas informações apresentadas.
+
+Conteúdo:
+[insira o material]
+```
 
 ## 🔄 Variações de Prompts
 
@@ -172,14 +291,6 @@ Com o desenvolvimento deste projeto foi possível compreender melhor:
 - Como utilizar IA como ferramenta de apoio ao aprendizado.
 - A importância de fornecer contexto para obter respostas mais precisas.
 - Como criar um fluxo de estudo e produtividade utilizando tecnologia.
-
----
-
-## 🖥️ Demonstração
-
-Exemplo de interação realizada no NotebookLM:
-
-![Exemplo de interação no NotebookLM](images/exemplo-notebooklm.png)
 
 ---
 
