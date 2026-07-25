@@ -1,5 +1,7 @@
 # 🧠 Segundo Cérebro Digital – Mentor Mestre Yoda
 
+<img width="1672" height="941" alt="Image" src="https://github.com/user-attachments/assets/23d27fda-148c-4299-b3dc-2f2447eb6fbe" />
+
 Projeto de um segundo cérebro digital focado em organização de conhecimento, produtividade e gestão de informações, utilizando inteligência artificial como ferramenta de apoio para tomada de decisões, aprendizado contínuo e desenvolvimento pessoal e profissional.
 
 ---
